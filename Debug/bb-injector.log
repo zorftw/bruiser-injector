@@ -1,0 +1,26 @@
+﻿  entry.cpp
+C:\Users\Zor\source\repos\bb-injector\lib\loadable\loadable.hpp(61,34): warning C4244: '=': conversion from 'std::streamoff' to 'size_t', possible loss of data
+C:\Users\Zor\source\repos\bb-injector\lib\loadable\loadable.hpp(172,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Zor\source\repos\bb-injector\lib\remote\remote.h(411,4): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD'
+C:\Users\Zor\source\repos\bb-injector\lib\remote\remote.h(421,4): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD'
+C:\Users\Zor\source\repos\bb-injector\lib\remote\remote.h(428,4): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD'
+C:\Users\Zor\source\repos\bb-injector\lib\remote\remote.h(460,26): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Zor\source\repos\bb-injector\lib\remote\remote.h(505,5): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD'
+C:\Users\Zor\source\repos\bb-injector\lib\remote\remote.h(532,4): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD'
+C:\Users\Zor\source\repos\bb-injector\lib\remote\remote.h(559,4): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD'
+C:\Users\Zor\source\repos\bb-injector\lib\remote\remote.h(578,4): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD'
+C:\Users\Zor\source\repos\bb-injector\lib\remote\remote.h(547,4): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD'
+C:\Users\Zor\source\repos\bb-injector\lib\remote\remote.h(268): message : see reference to function template instantiation 'T bruiser::c_remote_process::read<intptr_t>(intptr_t)' being compiled
+          with
+          [
+              T=intptr_t
+          ]
+C:\Users\Zor\source\repos\bb-injector\lib\remote\remote.h(571,4): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD'
+C:\Users\Zor\source\repos\bb-injector\lib\remote\remote.h(319): message : see reference to function template instantiation 'void bruiser::c_remote_process::write<bruiser::detail::_mm_data>(intptr_t,T &)' being compiled
+          with
+          [
+              T=bruiser::detail::_mm_data
+          ]
+C:\Users\Zor\source\repos\bb-injector\lib\remote\remote.h(342): warning C4715: 'bruiser::c_remote_process::inject_loadable_ntdetour': not all control paths return a value
+     Creating library C:\Users\Zor\source\repos\bb\Debug\bb-injector.lib and object C:\Users\Zor\source\repos\bb\Debug\bb-injector.exp
+  bb-injector.vcxproj -> C:\Users\Zor\source\repos\bb\Debug\bb-injector.exe
